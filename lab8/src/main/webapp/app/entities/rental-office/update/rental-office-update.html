@@ -1,0 +1,100 @@
+<div class="d-flex justify-content-center">
+  <div class="col-8">
+    <form name="editForm" novalidate (ngSubmit)="save()" [formGroup]="editForm">
+      <h2
+        id="jhi-rental-office-heading"
+        data-cy="RentalOfficeCreateUpdateHeading"
+        jhiTranslate="lab8App.rentalOffice.home.createOrEditLabel"
+      >
+        Create or edit a Rental Office
+      </h2>
+
+      <div>
+        <jhi-alert-error />
+
+        @if (editForm.controls.id.value !== null) {
+          <div class="mb-3">
+            <label class="form-label" for="field_id" jhiTranslate="global.field.id">ID</label>
+            <input type="number" class="form-control" name="id" id="field_id" data-cy="id" formControlName="id" [readonly]="true" />
+          </div>
+        }
+
+        @let officeNameRef = editForm.get('officeName')!;
+        <div class="mb-3">
+          <label class="form-label" for="field_officeName" jhiTranslate="lab8App.rentalOffice.officeName">Office Name</label>
+          <input
+            type="text"
+            class="form-control"
+            name="officeName"
+            id="field_officeName"
+            data-cy="officeName"
+            formControlName="officeName"
+          />
+          @if (officeNameRef.invalid && (officeNameRef.dirty || officeNameRef.touched)) {
+            <div>
+              @if (editForm.get('officeName')?.errors?.required) {
+                <small class="form-text text-danger" jhiTranslate="entity.validation.required">This field is required.</small>
+              }
+            </div>
+          }
+        </div>
+
+        @let cityRef = editForm.get('city')!;
+        <div class="mb-3">
+          <label class="form-label" for="field_city" jhiTranslate="lab8App.rentalOffice.city">City</label>
+          <input type="text" class="form-control" name="city" id="field_city" data-cy="city" formControlName="city" />
+          @if (cityRef.invalid && (cityRef.dirty || cityRef.touched)) {
+            <div>
+              @if (editForm.get('city')?.errors?.required) {
+                <small class="form-text text-danger" jhiTranslate="entity.validation.required">This field is required.</small>
+              }
+            </div>
+          }
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label" for="field_status" jhiTranslate="lab8App.rentalOffice.status">Status</label>
+          <select class="form-control" name="status" formControlName="status" id="field_status" data-cy="status">
+            <option [ngValue]="null">{{ 'lab8App.OfficeStatus.null' | translate }}</option>
+            @for (officeStatus of officeStatusValues; track $index) {
+              <option [value]="officeStatus">{{ 'lab8App.OfficeStatus.' + officeStatus | translate }}</option>
+            }
+          </select>
+        </div>
+
+        <div class="mb-3">
+          <label for="field_drivers" jhiTranslate="lab8App.rentalOffice.driver">Driver</label>
+          <select
+            class="form-control"
+            id="field_drivers"
+            data-cy="driver"
+            multiple
+            name="drivers"
+            formControlName="drivers"
+            [compareWith]="compareDriver"
+          >
+            @for (driverOption of driversSharedCollection(); track $index) {
+              <option [ngValue]="driverOption">{{ driverOption.id }}</option>
+            }
+          </select>
+        </div>
+      </div>
+
+      <div>
+        <button type="button" id="cancel-save" data-cy="entityCreateCancelButton" class="btn btn-secondary" (click)="previousState()">
+          <fa-icon icon="ban" />&nbsp;<span jhiTranslate="entity.action.cancel">Cancel</span>
+        </button>
+
+        <button
+          type="submit"
+          id="save-entity"
+          data-cy="entityCreateSaveButton"
+          [disabled]="editForm.invalid || isSaving()"
+          class="btn btn-primary"
+        >
+          <fa-icon icon="save" />&nbsp;<span jhiTranslate="entity.action.save">Save</span>
+        </button>
+      </div>
+    </form>
+  </div>
+</div>

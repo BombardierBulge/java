@@ -1,0 +1,38 @@
+
+entity Car {
+    brand String required,
+    model String required,
+    pricePerHour Float required 
+}
+
+entity Driver {
+    firstName String required,
+    lastName String required,
+    licenseDate LocalDate 
+}
+
+entity RentalOffice {
+    officeName String required,
+    city String required,
+    status OfficeStatus 
+}
+
+enum OfficeStatus {
+    OPEN, CLOSED, MAINTENANCE
+}
+
+
+relationship OneToOne {
+    Driver{currentCar} to Car
+}
+
+relationship OneToMany {
+    RentalOffice{car} to Car{rentalOffice}
+}
+
+relationship ManyToMany {
+    Driver{rentalOffice(officeName)} to RentalOffice{driver}
+}
+
+
+paginate Car, Driver, RentalOffice with pagination

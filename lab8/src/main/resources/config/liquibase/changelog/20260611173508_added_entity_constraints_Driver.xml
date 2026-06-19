@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd
+                        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+    <!--
+        Added the constraints for entity Driver.
+    -->
+    <changeSet id="20260611173508-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="current_car_id"
+                                 baseTableName="driver"
+                                 constraintName="fk_driver__current_car_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="car"
+                                 />
+
+        <addForeignKeyConstraint baseColumnNames="driver_id"
+                                 baseTableName="rel_driver__rental_office"
+                                 constraintName="fk_rel_driver__rental_office__driver_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="driver"
+                                 />
+
+        <addForeignKeyConstraint baseColumnNames="rental_office_id"
+                                 baseTableName="rel_driver__rental_office"
+                                 constraintName="fk_rel_driver__rental_office__rental_office_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="rental_office"
+                                 />
+    </changeSet>
+</databaseChangeLog>

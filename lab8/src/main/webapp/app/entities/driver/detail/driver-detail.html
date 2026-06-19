@@ -1,0 +1,59 @@
+<div class="d-flex justify-content-center">
+  <div class="col-8">
+    @if (driver(); as driverRef) {
+      <div>
+        <h2 data-cy="driverDetailsHeading"><span jhiTranslate="lab8App.driver.detail.title">Driver</span></h2>
+
+        <hr />
+
+        <jhi-alert-error />
+
+        <jhi-alert />
+
+        <dl class="row-md jh-entity-details">
+          <dt><span jhiTranslate="global.field.id">ID</span></dt>
+          <dd>
+            <span>{{ driverRef.id }}</span>
+          </dd>
+          <dt><span jhiTranslate="lab8App.driver.firstName">First Name</span></dt>
+          <dd>
+            <span>{{ driverRef.firstName }}</span>
+          </dd>
+          <dt><span jhiTranslate="lab8App.driver.lastName">Last Name</span></dt>
+          <dd>
+            <span>{{ driverRef.lastName }}</span>
+          </dd>
+          <dt><span jhiTranslate="lab8App.driver.licenseDate">License Date</span></dt>
+          <dd>
+            <span>{{ driverRef.licenseDate | formatMediumDate }}</span>
+          </dd>
+          <dt><span jhiTranslate="lab8App.driver.currentCar">Current Car</span></dt>
+          <dd>
+            @if (driver()!.currentCar) {
+              <div>
+                <a [routerLink]="['/car', driver()!.currentCar?.id, 'view']">{{ driverRef.currentCar?.id }}</a>
+              </div>
+            }
+          </dd>
+          <dt><span jhiTranslate="lab8App.driver.rentalOffice">Rental Office</span></dt>
+          <dd>
+            @for (rentalOffice of driverRef.rentalOffices; track $index; let last = $last) {
+              <span>
+                <a [routerLink]="['/rental-office', rentalOffice.id, 'view']">{{ rentalOffice?.officeName }}</a
+                >{{ last ? '' : ', ' }}
+              </span>
+            }
+          </dd>
+        </dl>
+
+        <button type="submit" (click)="previousState()" class="btn btn-info" data-cy="entityDetailsBackButton">
+          <fa-icon icon="arrow-left" />&nbsp;<span jhiTranslate="entity.action.back">Back</span>
+        </button>
+
+        <button type="button" [routerLink]="['/driver', driverRef.id, 'edit']" class="btn btn-primary">
+          <fa-icon icon="pencil-alt" />&nbsp;<span jhiTranslate="entity.action.edit">Edit</span>
+        </button>
+      </div>
+    }
+  </div>
+</div>

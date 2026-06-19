@@ -1,0 +1,41 @@
+{
+  "annotations": {
+    "changelogDate": "20260611173508"
+  },
+  "applications": ["*"],
+  "fields": [
+    {
+      "fieldName": "firstName",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "lastName",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "licenseDate",
+      "fieldType": "LocalDate"
+    }
+  ],
+  "name": "Driver",
+  "pagination": "pagination",
+  "relationships": [
+    {
+      "otherEntityName": "car",
+      "relationshipName": "currentCar",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-one"
+    },
+    {
+      "otherEntityField": "officeName",
+      "otherEntityName": "rentalOffice",
+      "otherEntityRelationshipName": "driver",
+      "relationshipName": "rentalOffice",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-many"
+    }
+  ],
+  "searchEngine": "no"
+}

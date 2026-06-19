@@ -1,0 +1,42 @@
+{
+  "annotations": {
+    "changelogDate": "20260611173509"
+  },
+  "applications": ["*"],
+  "fields": [
+    {
+      "fieldName": "officeName",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "city",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "OfficeStatus",
+      "fieldValues": "OPEN,CLOSED,MAINTENANCE"
+    }
+  ],
+  "name": "RentalOffice",
+  "pagination": "pagination",
+  "relationships": [
+    {
+      "otherEntityName": "car",
+      "otherEntityRelationshipName": "rentalOffice",
+      "relationshipName": "car",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "driver",
+      "otherEntityRelationshipName": "rentalOffice",
+      "relationshipName": "driver",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-many"
+    }
+  ],
+  "searchEngine": "no"
+}

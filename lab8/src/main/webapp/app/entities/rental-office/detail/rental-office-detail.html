@@ -1,0 +1,53 @@
+<div class="d-flex justify-content-center">
+  <div class="col-8">
+    @if (rentalOffice(); as rentalOfficeRef) {
+      <div>
+        <h2 data-cy="rentalOfficeDetailsHeading"><span jhiTranslate="lab8App.rentalOffice.detail.title">Rental Office</span></h2>
+
+        <hr />
+
+        <jhi-alert-error />
+
+        <jhi-alert />
+
+        <dl class="row-md jh-entity-details">
+          <dt><span jhiTranslate="global.field.id">ID</span></dt>
+          <dd>
+            <span>{{ rentalOfficeRef.id }}</span>
+          </dd>
+          <dt><span jhiTranslate="lab8App.rentalOffice.officeName">Office Name</span></dt>
+          <dd>
+            <span>{{ rentalOfficeRef.officeName }}</span>
+          </dd>
+          <dt><span jhiTranslate="lab8App.rentalOffice.city">City</span></dt>
+          <dd>
+            <span>{{ rentalOfficeRef.city }}</span>
+          </dd>
+          <dt><span jhiTranslate="lab8App.rentalOffice.status">Status</span></dt>
+          <dd>
+            <span [jhiTranslate]="'lab8App.OfficeStatus.' + (rentalOfficeRef.status ?? 'null')">{{
+              { null: '', OPEN: 'OPEN', CLOSED: 'CLOSED', MAINTENANCE: 'MAINTENANCE' }[rentalOfficeRef.status ?? 'null']
+            }}</span>
+          </dd>
+          <dt><span jhiTranslate="lab8App.rentalOffice.driver">Driver</span></dt>
+          <dd>
+            @for (driver of rentalOfficeRef.drivers; track $index; let last = $last) {
+              <span>
+                <a [routerLink]="['/driver', driver.id, 'view']">{{ driver?.id }}</a
+                >{{ last ? '' : ', ' }}
+              </span>
+            }
+          </dd>
+        </dl>
+
+        <button type="submit" (click)="previousState()" class="btn btn-info" data-cy="entityDetailsBackButton">
+          <fa-icon icon="arrow-left" />&nbsp;<span jhiTranslate="entity.action.back">Back</span>
+        </button>
+
+        <button type="button" [routerLink]="['/rental-office', rentalOfficeRef.id, 'edit']" class="btn btn-primary">
+          <fa-icon icon="pencil-alt" />&nbsp;<span jhiTranslate="entity.action.edit">Edit</span>
+        </button>
+      </div>
+    }
+  </div>
+</div>

@@ -1,0 +1,113 @@
+<div class="d-flex justify-content-center">
+  <div class="col-8">
+    <form name="editForm" novalidate (ngSubmit)="save()" [formGroup]="editForm">
+      <h2 id="jhi-driver-heading" data-cy="DriverCreateUpdateHeading" jhiTranslate="lab8App.driver.home.createOrEditLabel">
+        Create or edit a Driver
+      </h2>
+
+      <div>
+        <jhi-alert-error />
+
+        @if (editForm.controls.id.value !== null) {
+          <div class="mb-3">
+            <label class="form-label" for="field_id" jhiTranslate="global.field.id">ID</label>
+            <input type="number" class="form-control" name="id" id="field_id" data-cy="id" formControlName="id" [readonly]="true" />
+          </div>
+        }
+
+        @let firstNameRef = editForm.get('firstName')!;
+        <div class="mb-3">
+          <label class="form-label" for="field_firstName" jhiTranslate="lab8App.driver.firstName">First Name</label>
+          <input type="text" class="form-control" name="firstName" id="field_firstName" data-cy="firstName" formControlName="firstName" />
+          @if (firstNameRef.invalid && (firstNameRef.dirty || firstNameRef.touched)) {
+            <div>
+              @if (editForm.get('firstName')?.errors?.required) {
+                <small class="form-text text-danger" jhiTranslate="entity.validation.required">This field is required.</small>
+              }
+            </div>
+          }
+        </div>
+
+        @let lastNameRef = editForm.get('lastName')!;
+        <div class="mb-3">
+          <label class="form-label" for="field_lastName" jhiTranslate="lab8App.driver.lastName">Last Name</label>
+          <input type="text" class="form-control" name="lastName" id="field_lastName" data-cy="lastName" formControlName="lastName" />
+          @if (lastNameRef.invalid && (lastNameRef.dirty || lastNameRef.touched)) {
+            <div>
+              @if (editForm.get('lastName')?.errors?.required) {
+                <small class="form-text text-danger" jhiTranslate="entity.validation.required">This field is required.</small>
+              }
+            </div>
+          }
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label" for="field_licenseDate" jhiTranslate="lab8App.driver.licenseDate">License Date</label>
+          <div class="input-group">
+            <input
+              id="field_licenseDate"
+              data-cy="licenseDate"
+              type="text"
+              class="form-control"
+              name="licenseDate"
+              ngbDatepicker
+              #licenseDateDp="ngbDatepicker"
+              formControlName="licenseDate"
+            />
+            <button type="button" class="btn btn-secondary" (click)="licenseDateDp.toggle()"><fa-icon icon="calendar-alt" /></button>
+          </div>
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label" for="field_currentCar" jhiTranslate="lab8App.driver.currentCar">Current Car</label>
+          <select
+            class="form-control"
+            id="field_currentCar"
+            data-cy="currentCar"
+            name="currentCar"
+            formControlName="currentCar"
+            [compareWith]="compareCar"
+          >
+            <option [ngValue]="null"></option>
+            @for (carOption of currentCarsCollection(); track $index) {
+              <option [ngValue]="carOption">{{ carOption.id }}</option>
+            }
+          </select>
+        </div>
+
+        <div class="mb-3">
+          <label for="field_rentalOffices" jhiTranslate="lab8App.driver.rentalOffice">Rental Office</label>
+          <select
+            class="form-control"
+            id="field_rentalOffices"
+            data-cy="rentalOffice"
+            multiple
+            name="rentalOffices"
+            formControlName="rentalOffices"
+            [compareWith]="compareRentalOffice"
+          >
+            @for (rentalOfficeOption of rentalOfficesSharedCollection(); track $index) {
+              <option [ngValue]="rentalOfficeOption">{{ rentalOfficeOption.officeName }}</option>
+            }
+          </select>
+        </div>
+      </div>
+
+      <div>
+        <button type="button" id="cancel-save" data-cy="entityCreateCancelButton" class="btn btn-secondary" (click)="previousState()">
+          <fa-icon icon="ban" />&nbsp;<span jhiTranslate="entity.action.cancel">Cancel</span>
+        </button>
+
+        <button
+          type="submit"
+          id="save-entity"
+          data-cy="entityCreateSaveButton"
+          [disabled]="editForm.invalid || isSaving()"
+          class="btn btn-primary"
+        >
+          <fa-icon icon="save" />&nbsp;<span jhiTranslate="entity.action.save">Save</span>
+        </button>
+      </div>
+    </form>
+  </div>
+</div>

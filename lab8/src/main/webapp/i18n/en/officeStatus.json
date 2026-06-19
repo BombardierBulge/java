@@ -1,0 +1,10 @@
+{
+  "lab8App": {
+    "OfficeStatus": {
+      "null": "",
+      "OPEN": "OPEN",
+      "CLOSED": "CLOSED",
+      "MAINTENANCE": "MAINTENANCE"
+    }
+  }
+}

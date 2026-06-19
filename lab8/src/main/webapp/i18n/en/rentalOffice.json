@@ -1,0 +1,28 @@
+{
+  "lab8App": {
+    "rentalOffice": {
+      "home": {
+        "title": "Rental Offices",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Rental Office",
+        "createOrEditLabel": "Create or edit a Rental Office",
+        "notFound": "No Rental Offices found"
+      },
+      "created": "A new Rental Office is created with identifier {{ param }}",
+      "updated": "A Rental Office is updated with identifier {{ param }}",
+      "deleted": "A Rental Office is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Rental Office {{ id }}?"
+      },
+      "detail": {
+        "title": "Rental Office"
+      },
+      "id": "ID",
+      "officeName": "Office Name",
+      "city": "City",
+      "status": "Status",
+      "car": "Car",
+      "driver": "Driver"
+    }
+  }
+}
