@@ -1,0 +1,3 @@
+pl/pwr/imageapp/gui/MainApp.class
+pl/pwr/imageapp/processor/ParallelImageProcessor.class
+pl/pwr/imageapp/logger/AppLogger.class

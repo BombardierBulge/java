@@ -1,0 +1,275 @@
+[2026-05-28 20:53:08] [INFO] Uruchomiono aplikacje okienkowa.
+[2026-05-28 20:56:14] [INFO] Uzytkownik wywolal okno wczytywania pliku.
+[2026-05-28 20:56:18] [INFO] Pomyslnie zaladowano plik obrazu: GIfuBBgWwAA7HPq.jpg
+[2026-05-28 20:56:19] [INFO] Uzytkownik wywolal obrot obrazu w prawo
+[2026-05-28 20:56:20] [INFO] Uzytkownik wywolal obrot obrazu w lewo
+[2026-05-28 20:56:20] [INFO] Uzytkownik wywolal obrot obrazu w lewo
+[2026-05-28 20:56:21] [INFO] Uzytkownik wywolal obrot obrazu w lewo
+[2026-05-28 20:56:21] [INFO] Uzytkownik wywolal obrot obrazu w lewo
+[2026-05-28 20:56:22] [INFO] Uzytkownik wywolal obrot obrazu w lewo
+[2026-05-28 20:56:23] [INFO] Uzytkownik otworzyl okno modalne skalowania.
+[2026-05-28 20:56:36] [INFO] Przeskalowano obraz na wymiary: 1920x1080
+[2026-05-28 20:56:41] [INFO] Rozpoczeto wykonywanie operacji: Negatyw
+[2026-05-28 20:56:42] [INFO] Pomyslnie wykonano operacje Negatyw.
+[2026-05-28 20:56:44] [INFO] Rozpoczeto wykonywanie operacji: Progowanie
+[2026-05-28 20:56:46] [INFO] Pomyslnie wykonano Progowanie z progiem: 128
+[2026-05-28 20:56:49] [INFO] Rozpoczeto wykonywanie operacji: Konturowanie
+[2026-05-28 20:56:49] [INFO] Pomyslnie wykonano operacje Konturowanie.
+[2026-05-28 20:56:53] [INFO] Rozpoczeto wykonywanie operacji: Negatyw
+[2026-05-28 20:56:53] [INFO] Pomyslnie wykonano operacje Negatyw.
+[2026-05-28 20:56:56] [INFO] Rozpoczeto wykonywanie operacji: Progowanie
+[2026-05-28 20:56:57] [INFO] Pomyslnie wykonano Progowanie z progiem: 128
+[2026-05-28 20:57:00] [INFO] Rozpoczeto wykonywanie operacji: Konturowanie
+[2026-05-28 20:57:01] [INFO] Pomyslnie wykonano operacje Konturowanie.
+[2026-05-28 20:57:03] [INFO] Rozpoczeto wykonywanie operacji: Negatyw
+[2026-05-28 20:57:03] [INFO] Pomyslnie wykonano operacje Negatyw.
+[2026-05-28 20:57:16] [INFO] Uzytkownik wywolal obrot obrazu w lewo
+[2026-05-28 20:57:17] [INFO] Uzytkownik wywolal obrot obrazu w lewo
+[2026-05-28 20:57:17] [INFO] Uzytkownik wywolal obrot obrazu w lewo
+[2026-05-28 20:57:18] [INFO] Uzytkownik wywolal obrot obrazu w lewo
+[2026-05-28 20:57:18] [INFO] Uzytkownik wywolal obrot obrazu w lewo
+[2026-05-28 20:57:19] [INFO] Uzytkownik wywolal obrot obrazu w lewo
+[2026-05-28 20:57:22] [INFO] Uzytkownik wywolal obrot obrazu w lewo
+[2026-05-28 20:57:22] [INFO] Uzytkownik wywolal obrot obrazu w lewo
+[2026-05-28 20:57:23] [INFO] Uzytkownik wywolal obrot obrazu w lewo
+[2026-05-28 20:57:24] [INFO] Uzytkownik wywolal obrot obrazu w lewo
+[2026-05-28 20:57:25] [INFO] Uzytkownik wywolal obrot obrazu w prawo
+[2026-05-28 20:57:26] [INFO] Uzytkownik wywolal obrot obrazu w prawo
+[2026-05-28 20:57:46] [INFO] Zapisano przetworzony obraz w systemie: /home/bocian/Pictures/test.jpg
+[2026-05-28 20:57:54] [INFO] Zamknieto aplikacje.
+[2026-05-28 20:59:29] [INFO] Uruchomiono aplikacje okienkowa.
+[2026-05-28 20:59:32] [INFO] Uzytkownik wywolal okno wczytywania pliku.
+[2026-05-28 20:59:35] [INFO] Pomyslnie zaladowano plik obrazu: GIfuBBgWwAA7HPq.jpg
+[2026-05-28 20:59:41] [INFO] Rozpoczeto wykonywanie operacji: Konturowanie
+[2026-05-28 20:59:41] [INFO] Pomyslnie wykonano operacje Konturowanie.
+[2026-05-28 21:00:08] [INFO] Uzytkownik otworzyl okno modalne skalowania.
+[2026-05-28 21:00:22] [INFO] Rozpoczeto wykonywanie operacji: Konturowanie
+[2026-05-28 21:00:22] [INFO] Pomyslnie wykonano operacje Konturowanie.
+[2026-05-28 21:00:22] [INFO] Rozpoczeto wykonywanie operacji: Konturowanie
+[2026-05-28 21:00:22] [INFO] Pomyslnie wykonano operacje Konturowanie.
+[2026-05-28 21:00:22] [INFO] Rozpoczeto wykonywanie operacji: Konturowanie
+[2026-05-28 21:00:22] [INFO] Pomyslnie wykonano operacje Konturowanie.
+[2026-05-28 21:00:23] [INFO] Rozpoczeto wykonywanie operacji: Konturowanie
+[2026-05-28 21:00:23] [INFO] Pomyslnie wykonano operacje Konturowanie.
+[2026-05-28 21:00:23] [INFO] Rozpoczeto wykonywanie operacji: Konturowanie
+[2026-05-28 21:00:23] [INFO] Pomyslnie wykonano operacje Konturowanie.
+[2026-05-28 21:00:23] [INFO] Rozpoczeto wykonywanie operacji: Konturowanie
+[2026-05-28 21:00:23] [INFO] Pomyslnie wykonano operacje Konturowanie.
+[2026-05-28 21:00:23] [INFO] Rozpoczeto wykonywanie operacji: Konturowanie
+[2026-05-28 21:00:23] [INFO] Pomyslnie wykonano operacje Konturowanie.
+[2026-05-28 21:00:23] [INFO] Rozpoczeto wykonywanie operacji: Konturowanie
+[2026-05-28 21:00:23] [INFO] Pomyslnie wykonano operacje Konturowanie.
+[2026-05-28 21:00:24] [INFO] Rozpoczeto wykonywanie operacji: Konturowanie
+[2026-05-28 21:00:24] [INFO] Pomyslnie wykonano operacje Konturowanie.
+[2026-05-28 21:00:24] [INFO] Rozpoczeto wykonywanie operacji: Konturowanie
+[2026-05-28 21:00:24] [INFO] Pomyslnie wykonano operacje Konturowanie.
+[2026-05-28 21:00:24] [INFO] Rozpoczeto wykonywanie operacji: Konturowanie
+[2026-05-28 21:00:24] [INFO] Pomyslnie wykonano operacje Konturowanie.
+[2026-05-28 21:00:24] [INFO] Rozpoczeto wykonywanie operacji: Konturowanie
+[2026-05-28 21:00:24] [INFO] Pomyslnie wykonano operacje Konturowanie.
+[2026-05-28 21:00:24] [INFO] Rozpoczeto wykonywanie operacji: Konturowanie
+[2026-05-28 21:00:24] [INFO] Pomyslnie wykonano operacje Konturowanie.
+[2026-05-28 21:00:24] [INFO] Rozpoczeto wykonywanie operacji: Konturowanie
+[2026-05-28 21:00:24] [INFO] Pomyslnie wykonano operacje Konturowanie.
+[2026-05-28 21:00:24] [INFO] Rozpoczeto wykonywanie operacji: Konturowanie
+[2026-05-28 21:00:24] [INFO] Pomyslnie wykonano operacje Konturowanie.
+[2026-05-28 21:00:25] [INFO] Rozpoczeto wykonywanie operacji: Konturowanie
+[2026-05-28 21:00:25] [INFO] Pomyslnie wykonano operacje Konturowanie.
+[2026-05-28 21:00:25] [INFO] Rozpoczeto wykonywanie operacji: Konturowanie
+[2026-05-28 21:00:25] [INFO] Pomyslnie wykonano operacje Konturowanie.
+[2026-05-28 21:00:25] [INFO] Rozpoczeto wykonywanie operacji: Konturowanie
+[2026-05-28 21:00:25] [INFO] Pomyslnie wykonano operacje Konturowanie.
+[2026-05-28 21:00:25] [INFO] Rozpoczeto wykonywanie operacji: Konturowanie
+[2026-05-28 21:00:25] [INFO] Pomyslnie wykonano operacje Konturowanie.
+[2026-05-28 21:00:25] [INFO] Rozpoczeto wykonywanie operacji: Konturowanie
+[2026-05-28 21:00:25] [INFO] Pomyslnie wykonano operacje Konturowanie.
+[2026-05-28 21:00:25] [INFO] Rozpoczeto wykonywanie operacji: Konturowanie
+[2026-05-28 21:00:25] [INFO] Pomyslnie wykonano operacje Konturowanie.
+[2026-05-28 21:00:26] [INFO] Rozpoczeto wykonywanie operacji: Konturowanie
+[2026-05-28 21:00:26] [INFO] Pomyslnie wykonano operacje Konturowanie.
+[2026-05-28 21:00:26] [INFO] Rozpoczeto wykonywanie operacji: Konturowanie
+[2026-05-28 21:00:26] [INFO] Pomyslnie wykonano operacje Konturowanie.
+[2026-05-28 21:00:26] [INFO] Rozpoczeto wykonywanie operacji: Konturowanie
+[2026-05-28 21:00:26] [INFO] Pomyslnie wykonano operacje Konturowanie.
+[2026-05-28 21:00:26] [INFO] Rozpoczeto wykonywanie operacji: Konturowanie
+[2026-05-28 21:00:26] [INFO] Pomyslnie wykonano operacje Konturowanie.
+[2026-05-28 21:00:26] [INFO] Rozpoczeto wykonywanie operacji: Konturowanie
+[2026-05-28 21:00:26] [INFO] Pomyslnie wykonano operacje Konturowanie.
+[2026-05-28 21:00:26] [INFO] Rozpoczeto wykonywanie operacji: Konturowanie
+[2026-05-28 21:00:26] [INFO] Pomyslnie wykonano operacje Konturowanie.
+[2026-05-28 21:00:26] [INFO] Rozpoczeto wykonywanie operacji: Konturowanie
+[2026-05-28 21:00:27] [INFO] Pomyslnie wykonano operacje Konturowanie.
+[2026-05-28 21:00:27] [INFO] Rozpoczeto wykonywanie operacji: Konturowanie
+[2026-05-28 21:00:27] [INFO] Pomyslnie wykonano operacje Konturowanie.
+[2026-05-28 21:00:27] [INFO] Rozpoczeto wykonywanie operacji: Konturowanie
+[2026-05-28 21:00:27] [INFO] Pomyslnie wykonano operacje Konturowanie.
+[2026-05-28 21:00:27] [INFO] Rozpoczeto wykonywanie operacji: Konturowanie
+[2026-05-28 21:00:27] [INFO] Pomyslnie wykonano operacje Konturowanie.
+[2026-05-28 21:00:27] [INFO] Rozpoczeto wykonywanie operacji: Konturowanie
+[2026-05-28 21:00:27] [INFO] Pomyslnie wykonano operacje Konturowanie.
+[2026-05-28 21:00:27] [INFO] Rozpoczeto wykonywanie operacji: Konturowanie
+[2026-05-28 21:00:27] [INFO] Pomyslnie wykonano operacje Konturowanie.
+[2026-05-28 21:00:27] [INFO] Rozpoczeto wykonywanie operacji: Konturowanie
+[2026-05-28 21:00:28] [INFO] Pomyslnie wykonano operacje Konturowanie.
+[2026-05-28 21:00:28] [INFO] Rozpoczeto wykonywanie operacji: Konturowanie
+[2026-05-28 21:00:28] [INFO] Pomyslnie wykonano operacje Konturowanie.
+[2026-05-28 21:00:28] [INFO] Rozpoczeto wykonywanie operacji: Konturowanie
+[2026-05-28 21:00:28] [INFO] Pomyslnie wykonano operacje Konturowanie.
+[2026-05-28 21:00:28] [INFO] Rozpoczeto wykonywanie operacji: Konturowanie
+[2026-05-28 21:00:28] [INFO] Pomyslnie wykonano operacje Konturowanie.
+[2026-05-28 21:00:28] [INFO] Rozpoczeto wykonywanie operacji: Konturowanie
+[2026-05-28 21:00:28] [INFO] Pomyslnie wykonano operacje Konturowanie.
+[2026-05-28 21:00:28] [INFO] Rozpoczeto wykonywanie operacji: Konturowanie
+[2026-05-28 21:00:28] [INFO] Pomyslnie wykonano operacje Konturowanie.
+[2026-05-28 21:00:28] [INFO] Rozpoczeto wykonywanie operacji: Konturowanie
+[2026-05-28 21:00:29] [INFO] Pomyslnie wykonano operacje Konturowanie.
+[2026-05-28 21:00:29] [INFO] Rozpoczeto wykonywanie operacji: Konturowanie
+[2026-05-28 21:00:29] [INFO] Pomyslnie wykonano operacje Konturowanie.
+[2026-05-28 21:00:29] [INFO] Rozpoczeto wykonywanie operacji: Konturowanie
+[2026-05-28 21:00:29] [INFO] Pomyslnie wykonano operacje Konturowanie.
+[2026-05-28 21:00:29] [INFO] Rozpoczeto wykonywanie operacji: Konturowanie
+[2026-05-28 21:00:29] [INFO] Pomyslnie wykonano operacje Konturowanie.
+[2026-05-28 21:00:29] [INFO] Rozpoczeto wykonywanie operacji: Konturowanie
+[2026-05-28 21:00:29] [INFO] Pomyslnie wykonano operacje Konturowanie.
+[2026-05-28 21:00:29] [INFO] Rozpoczeto wykonywanie operacji: Konturowanie
+[2026-05-28 21:00:29] [INFO] Pomyslnie wykonano operacje Konturowanie.
+[2026-05-28 21:00:29] [INFO] Rozpoczeto wykonywanie operacji: Konturowanie
+[2026-05-28 21:00:30] [INFO] Pomyslnie wykonano operacje Konturowanie.
+[2026-05-28 21:00:30] [INFO] Rozpoczeto wykonywanie operacji: Konturowanie
+[2026-05-28 21:00:30] [INFO] Pomyslnie wykonano operacje Konturowanie.
+[2026-05-28 21:00:30] [INFO] Rozpoczeto wykonywanie operacji: Konturowanie
+[2026-05-28 21:00:30] [INFO] Pomyslnie wykonano operacje Konturowanie.
+[2026-05-28 21:00:30] [INFO] Rozpoczeto wykonywanie operacji: Konturowanie
+[2026-05-28 21:00:30] [INFO] Pomyslnie wykonano operacje Konturowanie.
+[2026-05-28 21:00:30] [INFO] Rozpoczeto wykonywanie operacji: Konturowanie
+[2026-05-28 21:00:30] [INFO] Pomyslnie wykonano operacje Konturowanie.
+[2026-05-28 21:00:30] [INFO] Rozpoczeto wykonywanie operacji: Konturowanie
+[2026-05-28 21:00:30] [INFO] Pomyslnie wykonano operacje Konturowanie.
+[2026-05-28 21:00:31] [INFO] Rozpoczeto wykonywanie operacji: Konturowanie
+[2026-05-28 21:00:31] [INFO] Pomyslnie wykonano operacje Konturowanie.
+[2026-05-28 21:00:31] [INFO] Rozpoczeto wykonywanie operacji: Konturowanie
+[2026-05-28 21:00:31] [INFO] Pomyslnie wykonano operacje Konturowanie.
+[2026-05-28 21:00:31] [INFO] Rozpoczeto wykonywanie operacji: Konturowanie
+[2026-05-28 21:00:31] [INFO] Pomyslnie wykonano operacje Konturowanie.
+[2026-05-28 21:00:31] [INFO] Rozpoczeto wykonywanie operacji: Konturowanie
+[2026-05-28 21:00:31] [INFO] Pomyslnie wykonano operacje Konturowanie.
+[2026-05-28 21:00:31] [INFO] Rozpoczeto wykonywanie operacji: Konturowanie
+[2026-05-28 21:00:31] [INFO] Pomyslnie wykonano operacje Konturowanie.
+[2026-05-28 21:00:32] [INFO] Rozpoczeto wykonywanie operacji: Konturowanie
+[2026-05-28 21:00:32] [INFO] Pomyslnie wykonano operacje Konturowanie.
+[2026-05-28 21:00:32] [INFO] Rozpoczeto wykonywanie operacji: Konturowanie
+[2026-05-28 21:00:32] [INFO] Pomyslnie wykonano operacje Konturowanie.
+[2026-05-28 21:00:32] [INFO] Rozpoczeto wykonywanie operacji: Konturowanie
+[2026-05-28 21:00:32] [INFO] Pomyslnie wykonano operacje Konturowanie.
+[2026-05-28 21:00:32] [INFO] Rozpoczeto wykonywanie operacji: Konturowanie
+[2026-05-28 21:00:32] [INFO] Pomyslnie wykonano operacje Konturowanie.
+[2026-05-28 21:00:32] [INFO] Rozpoczeto wykonywanie operacji: Konturowanie
+[2026-05-28 21:00:32] [INFO] Pomyslnie wykonano operacje Konturowanie.
+[2026-05-28 21:00:32] [INFO] Rozpoczeto wykonywanie operacji: Konturowanie
+[2026-05-28 21:00:32] [INFO] Pomyslnie wykonano operacje Konturowanie.
+[2026-05-28 21:00:33] [INFO] Rozpoczeto wykonywanie operacji: Konturowanie
+[2026-05-28 21:00:33] [INFO] Pomyslnie wykonano operacje Konturowanie.
+[2026-05-28 21:00:33] [INFO] Rozpoczeto wykonywanie operacji: Konturowanie
+[2026-05-28 21:00:33] [INFO] Pomyslnie wykonano operacje Konturowanie.
+[2026-05-28 21:00:33] [INFO] Rozpoczeto wykonywanie operacji: Konturowanie
+[2026-05-28 21:00:33] [INFO] Pomyslnie wykonano operacje Konturowanie.
+[2026-05-28 21:00:33] [INFO] Rozpoczeto wykonywanie operacji: Konturowanie
+[2026-05-28 21:00:33] [INFO] Pomyslnie wykonano operacje Konturowanie.
+[2026-05-28 21:00:33] [INFO] Rozpoczeto wykonywanie operacji: Konturowanie
+[2026-05-28 21:00:33] [INFO] Pomyslnie wykonano operacje Konturowanie.
+[2026-05-28 21:00:33] [INFO] Rozpoczeto wykonywanie operacji: Konturowanie
+[2026-05-28 21:00:33] [INFO] Pomyslnie wykonano operacje Konturowanie.
+[2026-05-28 21:00:33] [INFO] Rozpoczeto wykonywanie operacji: Konturowanie
+[2026-05-28 21:00:33] [INFO] Pomyslnie wykonano operacje Konturowanie.
+[2026-05-28 21:00:48] [INFO] Zamknieto aplikacje.
+[2026-05-28 21:04:30] [INFO] Uruchomiono aplikacje okienkowa.
+[2026-05-28 21:29:46] [INFO] Zamknieto aplikacje.
+[2026-05-29 07:41:44] [INFO] Uruchomiono aplikacje okienkowa.
+[2026-05-29 07:42:39] [INFO] Uzytkownik wywolal okno wczytywania pliku.
+[2026-05-29 07:42:43] [INFO] Pomyslnie zaladowano plik obrazu: DSC00012.jpg
+[2026-05-29 07:43:03] [INFO] Uzytkownik otworzyl okno modalne skalowania.
+[2026-05-29 07:44:31] [INFO] Uzytkownik wywolal obrot obrazu w prawo
+[2026-05-29 07:44:32] [INFO] Uzytkownik wywolal obrot obrazu w prawo
+[2026-05-29 07:44:33] [INFO] Uzytkownik wywolal obrot obrazu w lewo
+[2026-05-29 07:44:34] [INFO] Uzytkownik wywolal obrot obrazu w lewo
+[2026-05-29 07:44:40] [INFO] Rozpoczeto wykonywanie operacji: Negatyw
+[2026-05-29 07:44:40] [INFO] Pomyslnie wykonano operacje Negatyw.
+[2026-05-29 07:46:03] [INFO] Uzytkownik wywolal okno wczytywania pliku.
+[2026-05-29 07:46:06] [INFO] Pomyslnie zaladowano plik obrazu: DSC00012.jpg
+[2026-05-29 07:49:52] [INFO] Zamknieto aplikacje.
+[2026-05-29 07:50:30] [INFO] Uruchomiono aplikacje okienkowa.
+[2026-05-29 07:50:37] [INFO] Uzytkownik wywolal okno wczytywania pliku.
+[2026-05-29 07:50:41] [INFO] Pomyslnie zaladowano plik obrazu: DSC00012.jpg
+[2026-05-29 07:50:44] [INFO] Uzytkownik otworzyl okno modalne skalowania.
+[2026-05-29 07:52:01] [INFO] Rozpoczeto wykonywanie operacji: Progowanie
+[2026-05-29 07:55:35] [INFO] Zamknieto aplikacje.
+[2026-05-29 07:56:34] [INFO] Uruchomiono aplikacje okienkowa.
+[2026-05-29 07:57:13] [INFO] Uzytkownik wywolal okno wczytywania pliku.
+[2026-05-29 07:57:17] [INFO] Pomyslnie zaladowano plik obrazu: DSC00012.jpg
+[2026-05-29 07:57:23] [INFO] Uzytkownik wywolal obrot obrazu w prawo
+[2026-05-29 07:57:25] [INFO] Uzytkownik wywolal obrot obrazu w lewo
+[2026-05-29 07:57:25] [INFO] Uzytkownik wywolal obrot obrazu w lewo
+[2026-05-29 07:57:26] [INFO] Uzytkownik wywolal obrot obrazu w lewo
+[2026-05-29 07:57:27] [INFO] Uzytkownik wywolal obrot obrazu w lewo
+[2026-05-29 07:57:28] [INFO] Uzytkownik wywolal obrot obrazu w lewo
+[2026-05-29 07:57:33] [INFO] Uzytkownik otworzyl okno modalne skalowania.
+[2026-05-29 07:57:57] [INFO] Przeskalowano obraz na wymiary: 100x1696
+[2026-05-29 07:58:00] [INFO] Uzytkownik otworzyl okno modalne skalowania.
+[2026-05-29 07:58:06] [INFO] Przeskalowano obraz na wymiary: 2544x1696
+[2026-05-29 07:58:15] [INFO] Rozpoczeto wykonywanie operacji: Konturowanie
+[2026-05-29 07:58:15] [INFO] Pomyslnie wykonano operacje Konturowanie.
+[2026-05-29 07:58:30] [INFO] Rozpoczeto wykonywanie operacji: Progowanie
+[2026-05-29 07:58:41] [INFO] Uzytkownik wywolal okno wczytywania pliku.
+[2026-05-29 07:58:55] [INFO] Pomyslnie zaladowano plik obrazu: IMG_2423.jpg
+[2026-05-29 07:58:58] [INFO] Rozpoczeto wykonywanie operacji: Progowanie
+[2026-05-29 07:59:04] [INFO] Rozpoczeto wykonywanie operacji: Negatyw
+[2026-05-29 07:59:05] [INFO] Pomyslnie wykonano operacje Negatyw.
+[2026-05-29 07:59:09] [INFO] Rozpoczeto wykonywanie operacji: Progowanie
+[2026-05-29 07:59:12] [INFO] Pomyslnie wykonano Progowanie z progiem: 128
+[2026-05-29 07:59:16] [INFO] Rozpoczeto wykonywanie operacji: Konturowanie
+[2026-05-29 07:59:17] [INFO] Pomyslnie wykonano operacje Konturowanie.
+[2026-05-29 07:59:25] [INFO] Uzytkownik wywolal okno wczytywania pliku.
+[2026-05-29 07:59:36] [INFO] Pomyslnie zaladowano plik obrazu: 0MjKUExV.jpg
+[2026-05-29 07:59:38] [INFO] Uzytkownik wywolal okno wczytywania pliku.
+[2026-05-29 08:00:05] [INFO] Pomyslnie zaladowano plik obrazu: 0MjKUExV.jpg
+[2026-05-29 08:00:10] [INFO] Rozpoczeto wykonywanie operacji: Konturowanie
+[2026-05-29 08:00:11] [INFO] Pomyslnie wykonano operacje Konturowanie.
+[2026-05-29 08:00:27] [INFO] Uzytkownik wywolal okno wczytywania pliku.
+[2026-05-29 08:00:48] [INFO] Pomyslnie zaladowano plik obrazu: pawian Mariusz.jpg
+[2026-05-29 08:00:51] [INFO] Rozpoczeto wykonywanie operacji: Konturowanie
+[2026-05-29 08:00:51] [INFO] Pomyslnie wykonano operacje Konturowanie.
+[2026-05-29 08:01:07] [INFO] Rozpoczeto wykonywanie operacji: Progowanie
+[2026-05-29 08:01:09] [INFO] Pomyslnie wykonano Progowanie z progiem: 128
+[2026-05-29 08:01:12] [INFO] Rozpoczeto wykonywanie operacji: Negatyw
+[2026-05-29 08:01:12] [INFO] Pomyslnie wykonano operacje Negatyw.
+[2026-05-29 08:01:15] [INFO] Uzytkownik wywolal okno wczytywania pliku.
+[2026-05-29 08:01:23] [INFO] Pomyslnie zaladowano plik obrazu: pawian Mariusz.jpg
+[2026-05-29 08:01:24] [INFO] Uzytkownik otworzyl okno modalne skalowania.
+[2026-05-29 08:01:32] [INFO] Rozpoczeto wykonywanie operacji: Negatyw
+[2026-05-29 08:01:32] [INFO] Pomyslnie wykonano operacje Negatyw.
+[2026-05-29 08:01:36] [INFO] Rozpoczeto wykonywanie operacji: Progowanie
+[2026-05-29 08:01:42] [INFO] Rozpoczeto wykonywanie operacji: Progowanie
+[2026-05-29 08:01:46] [INFO] Pomyslnie wykonano Progowanie z progiem: 128
+[2026-05-29 08:01:50] [INFO] Rozpoczeto wykonywanie operacji: Konturowanie
+[2026-05-29 08:01:50] [INFO] Pomyslnie wykonano operacje Konturowanie.
+[2026-05-29 08:01:55] [INFO] Uzytkownik wywolal okno wczytywania pliku.
+[2026-05-29 08:02:05] [INFO] Pomyslnie zaladowano plik obrazu: pawian Mariusz.jpg
+[2026-05-29 08:02:11] [INFO] Zamknieto aplikacje.
+[2026-05-29 08:15:49] [INFO] Uruchomiono aplikacje okienkowa.
+[2026-05-29 08:15:53] [INFO] Uzytkownik wywolal okno wczytywania pliku.
+[2026-05-29 08:16:00] [INFO] Pomyslnie zaladowano plik obrazu: pawian Mariusz.jpg
+[2026-05-29 08:16:28] [INFO] Uzytkownik wywolal obrot obrazu w prawo
+[2026-05-29 08:16:30] [INFO] Uzytkownik wywolal obrot obrazu w lewo
+[2026-05-29 08:16:31] [INFO] Uzytkownik wywolal obrot obrazu w lewo
+[2026-05-29 08:16:32] [INFO] Uzytkownik wywolal obrot obrazu w lewo
+[2026-05-29 08:16:32] [INFO] Uzytkownik wywolal obrot obrazu w lewo
+[2026-05-29 08:16:33] [INFO] Uzytkownik wywolal obrot obrazu w lewo
+[2026-05-29 08:16:34] [INFO] Uzytkownik otworzyl okno modalne skalowania.
+[2026-05-29 08:17:12] [INFO] Przeskalowano obraz na wymiary: 300x500
+[2026-05-29 08:17:21] [INFO] Rozpoczeto wykonywanie operacji: Negatyw
+[2026-05-29 08:17:21] [INFO] Pomyslnie wykonano operacje Negatyw.
+[2026-05-29 08:17:25] [INFO] Rozpoczeto wykonywanie operacji: Progowanie
+[2026-05-29 08:17:38] [INFO] Pomyslnie wykonano Progowanie z progiem: 100
+[2026-05-29 08:17:42] [INFO] Rozpoczeto wykonywanie operacji: Konturowanie
+[2026-05-29 08:17:42] [INFO] Pomyslnie wykonano operacje Konturowanie.
+[2026-05-29 08:17:56] [INFO] Zapisano przetworzony obraz w systemie: /home/bocian/Pictures/pawian Mariusz123.jpg
